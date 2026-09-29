@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    "apify": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/mcp-server"
+      ],
+      "env": {
+        "APIFY_TOKEN": "apify_api_dFFn5gS0HmcGXwZrkfH6Ln08GgQ1DS2EWBsS"
+      }
+    }
+  }
+}
